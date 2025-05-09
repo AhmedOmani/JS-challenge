@@ -1,0 +1,3 @@
+## My JavaScript Journey
+
+I'm a C++ competitive programmer, comfortable with algorithms and data structures, but now I'm diving into Node.js for backend development.  Instead of getting bogged down in tutorials, I'm tackling a series of targeted challenges. These exercises force me to apply JavaScript fundamentals in practical scenarios, helping me to internalize the language's core concepts and embrace its idioms. My goal is to build a rock-solid JavaScript foundation through hands-on coding, enabling me to confidently build efficient and scalable Node.js applications.
