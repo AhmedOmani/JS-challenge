@@ -1,0 +1,18 @@
+1. Array and Object Manipulation Masterclass:
+
+Challenge 1: Deep Comparison: Write a function deepCompare(obj1, obj2) that takes two objects as input and returns true if they are deeply equal (same keys and corresponding values are also deeply equal), and false otherwise. Consider nested objects and arrays.
+Challenge 2: Flatten and Unique: Given an array that can contain nested arrays, write a function flattenAndUnique(arr) that flattens the array (removes all nested arrays, making it a single-level array) and then removes any duplicate elements, returning a new array with only unique values in their original order of appearance.
+Challenge 3: Grouping by Category: You have an array of objects, each with a category property. Write a function groupByCategory(arr) that takes this array and returns an object where the keys are the unique categories and the values are arrays of the objects belonging to that category.
+
+
+2. Asynchronous Adventures:
+
+Challenge 4: Promise All Settled (DIY): Implement a function myPromiseAllSettled(promises) that behaves exactly like Promise.allSettled(). It should take an array of promises and return a new promise that resolves with an array of objects, each describing the outcome of the corresponding promise (either {'status': 'fulfilled', 'value': value} or {'status': 'rejected', 'reason': reason}).
+Challenge 5: Sequential Promise Execution: Write a function executeSequentially(promises) that takes an array of promise-returning functions. It should execute these functions one after another, with the result of each promise being passed as an argument to the next promise in the sequence. The function should return a promise that resolves with the final result.
+Challenge 6: Debounce Function: Implement a debounce(func, delay) function. This function should return a new function that, when called repeatedly, will only execute the original func after a specified delay has passed since the last call. This is useful for optimizing event handlers.
+
+3. Prototypal Power and the this Keyword:
+
+Challenge 7: Implement Array.prototype.map: Write your own version of the map function that works on arrays. It should take a callback function as an argument and return a new array with the results of calling the callback on each element of the original array. Pay attention to how this is handled (or not handled in this case).
+Challenge 8: Create a Chainable Object: Design an object that allows for method chaining. For example, you might have an object with methods like add(value), subtract(value), and multiply(value), such that you can call them like calculator.add(5).subtract(2).multiply(3).
+Challenge 9: Understanding this in Different Contexts: Create a few examples that demonstrate how the value of this changes in different scenarios: inside a regular function, inside a method of an object, inside an arrow function, and when using call, apply, and bind. Explain the output of each example.
