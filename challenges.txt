@@ -1,8 +1,13 @@
 1. Array and Object Manipulation Masterclass:
 
-Challenge 1: Deep Comparison: Write a function deepCompare(obj1, obj2) that takes two objects as input and returns true if they are deeply equal (same keys and corresponding values are also deeply equal), and false otherwise. Consider nested objects and arrays.
-Challenge 2: Flatten and Unique: Given an array that can contain nested arrays, write a function flattenAndUnique(arr) that flattens the array (removes all nested arrays, making it a single-level array) and then removes any duplicate elements, returning a new array with only unique values in their original order of appearance.
-Challenge 3: Grouping by Category: You have an array of objects, each with a category property. Write a function groupByCategory(arr) that takes this array and returns an object where the keys are the unique categories and the values are arrays of the objects belonging to that category.
+Challenge 1: Deep Comparison: 
+Write a function deepCompare(obj1, obj2) that takes two objects as input and returns true if they are deeply equal (same keys and corresponding values are also deeply equal), and false otherwise. Consider nested objects and arrays.
+
+Challenge 2: Flatten and Unique: 
+Given an array that can contain nested arrays, write a function flattenAndUnique(arr) that flattens the array (removes all nested arrays, making it a single-level array) and then removes any duplicate elements, returning a new array with only unique values in their original order of appearance.
+
+Challenge 3: Grouping by Category: 
+You have an array of objects, each with a category property. Write a function groupByCategory(arr) that takes this array and returns an object where the keys are the unique categories and the values are arrays of the objects belonging to that category.
 
 
 2. Asynchronous Adventures:
