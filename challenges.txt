@@ -9,7 +9,6 @@ Given an array that can contain nested arrays, write a function flattenAndUnique
 Challenge 3: Grouping by Category: 
 You have an array of objects, each with a category property. Write a function groupByCategory(arr) that takes this array and returns an object where the keys are the unique categories and the values are arrays of the objects belonging to that category.
 
-
 2. Asynchronous Adventures:
 
 Challenge 4: Promise All Settled (DIY): Implement a function myPromiseAllSettled(promises) that behaves exactly like Promise.allSettled(). It should take an array of promises and return a new promise that resolves with an array of objects, each describing the outcome of the corresponding promise (either {'status': 'fulfilled', 'value': value} or {'status': 'rejected', 'reason': reason}).
