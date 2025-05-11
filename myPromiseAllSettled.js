@@ -15,12 +15,12 @@ function myPromiseAllSettled(promises) {
         value => {
           result[index] = {status: "fulfilled" , value};
           settledPromises += 1;
-          if (settledPromises === promises.length) return;
+          if (settledPromises === promises.length) resolve(result);
         },
         reason => {
           result[index] = {status: "rejected" , reason};
           settledPromises += 1;
-          if (settledPromises === promises.length) return;
+          if (settledPromises === promises.length) resolve(result);
         }
       )
 
@@ -40,5 +40,4 @@ const promise2 = new Promise((resolve , reject) => {
 });
 
 const promises = [promise , promise2];
-console.log(promises);
-myPromiseAllSettled(promises) ;
+myPromiseAllSettled(promises).then(console.log) ;
