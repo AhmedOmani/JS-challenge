@@ -48,17 +48,17 @@ function MyPromise(executer) {
 
 const promise = new MyPromise((resolve , reject) => {
     setTimeout(() => {
-        console.log("A7A");
+        console.log("test");
         resolve("2ol yarab");
     }, 1000);
 });
 
 promise.then((val) => {
-    console.log("A7a with :" , val);
+    console.log("first with :" , val);
 });
 promise.then((val) => {
-    console.log("A7a2 with :" , val);
+    console.log("second with :" , val);
 });
 promise.then((val) => {
-    console.log("A7a3 with :" , val);
+    console.log("third with :" , val);
 });
