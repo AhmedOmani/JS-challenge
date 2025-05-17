@@ -11,8 +11,7 @@ You have an array of objects, each with a category property. Write a function gr
 
 2. Asynchronous Adventures:
 
-Challenge 4: 
-Promise All Settled (DIY): Implement a function myPromiseAllSettled(promises) that behaves exactly like Promise.allSettled(). It should take an array of promises and return a new promise that resolves with an array of objects, each describing the outcome of the corresponding promise (either {'status': 'fulfilled', 'value': value} or {'status': 'rejected', 'reason': reason}).
+Challenge 4: Promise All Settled (DIY): Implement a function myPromiseAllSettled(promises) that behaves exactly like Promise.allSettled(). It should take an array of promises and return a new promise that resolves with an array of objects, each describing the outcome of the corresponding promise (either {'status': 'fulfilled', 'value': value} or {'status': 'rejected', 'reason': reason}).
 Challenge 5: Sequential Promise Execution: Write a function executeSequentially(promises) that takes an array of promise-returning functions. It should execute these functions one after another, with the result of each promise being passed as an argument to the next promise in the sequence. The function should return a promise that resolves with the final result.
 Challenge 6: Debounce Function: Implement a debounce(func, delay) function. This function should return a new function that, when called repeatedly, will only execute the original func after a specified delay has passed since the last call. This is useful for optimizing event handlers.
 
