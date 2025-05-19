@@ -1,3 +1,5 @@
+** JavaScript Superhero Training - Level 1: **
+
 1. Array and Object Manipulation Masterclass:
 
 Challenge 1: Deep Comparison: 
@@ -20,3 +22,22 @@ Challenge 6: Debounce Function: Implement a debounce(func, delay) function. This
 Challenge 7: Implement Array.prototype.map: Write your own version of the map function that works on arrays. It should take a callback function as an argument and return a new array with the results of calling the callback on each element of the original array. Pay attention to how this is handled (or not handled in this case).
 Challenge 8: Create a Chainable Object: Design an object that allows for method chaining. For example, you might have an object with methods like add(value), subtract(value), and multiply(value), such that you can call them like calculator.add(5).subtract(2).multiply(3).
 Challenge 9: Understanding this in Different Contexts: Create a few examples that demonstrate how the value of this changes in different scenarios: inside a regular function, inside a method of an object, inside an arrow function, and when using call, apply, and bind. Explain the output of each example.
+
+** JavaScript Superhero Training - Level 2: **
+
+1. Advanced Array and Object Kung Fu:
+
+Challenge 10: Implement Lodash's get function (Simplified): Write a function safeGet(obj, path, defaultValue) that takes an object, a string representing a path to a nested property (e.g., 'a.b.c'), and an optional defaultValue. The function should return the value at the specified path if it exists, otherwise it should return the defaultValue. Handle cases where intermediate properties in the path are null or undefined without causing errors.
+Challenge 11: Deep Clone: Write a function deepClone(obj) that creates a deep copy of an object. This means that all nested objects and arrays are also cloned, not just their references. Be mindful of circular references (though you don't need to handle them for this level, just be aware of the potential issue).
+Challenge 12: Implement Array.prototype.reduce: Write your own version of the reduce function that works on arrays. It should take a callback function (reducer) and an optional initial value as arguments and return the single accumulated result.
+
+2. Asynchronous Mastery:
+
+Challenge 13: Implement Promise.all (DIY): Write a function myPromiseAll(promises) that behaves like Promise.all(). It should take an array of promises and return a new promise that resolves with an array of the resolved values of all the input promises, or rejects with the reason of the first promise that rejects.
+Challenge 14: Implement a Basic Throttling Function: Write a function throttle(func, limit) that returns a new function. This new function should execute the original func at most once within the specified limit (in milliseconds). If the throttled function is called multiple times within the limit, the subsequent calls should be ignored.
+Challenge 15: Implement a Simple Task Scheduler: Design a class or set of functions that allows you to schedule asynchronous tasks (represented as promise-returning functions) to run with a concurrency limit. For example, if the limit is 3, only 3 tasks can be running at any given time. The scheduler should queue up any additional tasks and execute them as soon as a running task completes.
+3. The Power of Prototypes and this Unleashed:
+
+Challenge 16: Create a Class with Inheritance: Implement a simple class hierarchy using prototypal inheritance (or ES6 classes, but be mindful of the underlying prototype chain). For example, create a Vehicle class with properties like speed and methods like accelerate(), and then create Car and Bicycle classes that inherit from Vehicle and add their own specific properties and methods.
+Challenge 17: Implement a Custom Event Emitter: Create a class EventEmitter with on(eventName, listener), emit(eventName, ...args), and off(eventName, listener) methods. This is a fundamental pattern for decoupled communication between different parts of an application.
+Challenge 18: Deep Dive into bind, call, and apply: Create several practical examples demonstrating the differences and use cases of bind, call, and apply. Show how they can be used to manipulate the this context of a function.
